@@ -69,6 +69,10 @@ RecService.addRecommender({Object} config)
 
 ---
 
+## Fetch Recommendations
+
+> Use either method to fetch recommendations
+
 ### run
 > Fetch the recommendations for each recommender
 Returns a ```Promise``` that resolves to an Object literal mapping recommender.name (or IDs) to their resultset
